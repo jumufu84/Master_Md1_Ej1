@@ -1,0 +1,48 @@
+.container {
+  grid-template-rows: 100px;
+  grid-template-columns: repeat(7, 100px);
+  gap: 5px;
+  margin: 5px;
+  display: grid;
+}
+
+.box {
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.color-box-text {
+  color: #fff;
+}
+
+.base-color {
+  background-color: red;
+}
+
+.darken-3 {
+  color: #00f;
+  background-color: #600;
+}
+
+.darken-2 {
+  background-color: #900;
+}
+
+.darken-1 {
+  background-color: #c00;
+}
+
+.lighten-1 {
+  background-color: #f33;
+}
+
+.lighten-2 {
+  background-color: #f66;
+}
+
+.lighten-3 {
+  background-color: #f99;
+}
+/*# sourceMappingURL=index.da98add7.css.map */
