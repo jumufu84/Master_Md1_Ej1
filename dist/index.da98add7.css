@@ -1,4 +1,4 @@
-.container {
+.container-1 {
   grid-template-rows: 100px;
   grid-template-columns: repeat(7, 100px);
   gap: 5px;
@@ -6,43 +6,208 @@
   display: grid;
 }
 
-.box {
+.container-1 .box {
   border-radius: 10px;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
-.color-box-text {
+.container-1 .color-box-text {
   color: #fff;
 }
 
-.base-color {
+.container-1 .base-color {
   background-color: red;
 }
 
-.darken-3 {
-  color: #00f;
+.container-1 .darken-3 {
   background-color: #600;
 }
 
-.darken-2 {
+.container-1 .darken-3 .color-box-text {
+  color: #7fffd4;
+}
+
+.container-1 .darken-2 {
   background-color: #900;
 }
 
-.darken-1 {
+.container-1 .darken-2 .color-box-text {
+  color: #7fffd4;
+}
+
+.container-1 .darken-1 {
   background-color: #c00;
 }
 
-.lighten-1 {
+.container-1 .darken-1 .color-box-text {
+  color: #7fffd4;
+}
+
+.container-1 .lighten-1 {
   background-color: #f33;
 }
 
-.lighten-2 {
+.container-1 .lighten-1 .color-box-text {
+  color: #7fffd4;
+}
+
+.container-1 .lighten-2 {
   background-color: #f66;
 }
 
-.lighten-3 {
+.container-1 .lighten-2 .color-box-text {
+  color: #7fffd4;
+}
+
+.container-1 .lighten-3 {
   background-color: #f99;
+}
+
+.container-1 .lighten-3 .color-box-text {
+  color: #7fffd4;
+}
+
+.container-2 {
+  grid-template-rows: 100px;
+  grid-template-columns: repeat(7, 100px);
+  gap: 5px;
+  margin: 5px;
+  display: grid;
+}
+
+.container-2 .box {
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container-2 .color-box-text {
+  color: #fff;
+}
+
+.container-2 .base-color {
+  background-color: #00f;
+}
+
+.container-2 .darken-3 {
+  background-color: #006;
+}
+
+.container-2 .darken-3 .color-box-text {
+  color: #daa520;
+}
+
+.container-2 .darken-2 {
+  background-color: #009;
+}
+
+.container-2 .darken-2 .color-box-text {
+  color: #daa520;
+}
+
+.container-2 .darken-1 {
+  background-color: #00c;
+}
+
+.container-2 .darken-1 .color-box-text {
+  color: #daa520;
+}
+
+.container-2 .lighten-1 {
+  background-color: #33f;
+}
+
+.container-2 .lighten-1 .color-box-text {
+  color: #daa520;
+}
+
+.container-2 .lighten-2 {
+  background-color: #66f;
+}
+
+.container-2 .lighten-2 .color-box-text {
+  color: #daa520;
+}
+
+.container-2 .lighten-3 {
+  background-color: #99f;
+}
+
+.container-2 .lighten-3 .color-box-text {
+  color: #daa520;
+}
+
+.container-3 {
+  grid-template-rows: 100px;
+  grid-template-columns: repeat(7, 100px);
+  gap: 5px;
+  margin: 5px;
+  display: grid;
+}
+
+.container-3 .box {
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container-3 .color-box-text {
+  color: #fff;
+}
+
+.container-3 .base-color {
+  background-color: green;
+}
+
+.container-3 .darken-3 {
+  background-color: #000;
+}
+
+.container-3 .darken-3 .color-box-text {
+  color: #932993;
+}
+
+.container-3 .darken-2 {
+  background-color: #001a00;
+}
+
+.container-3 .darken-2 .color-box-text {
+  color: #932993;
+}
+
+.container-3 .darken-1 {
+  background-color: #004d00;
+}
+
+.container-3 .darken-1 .color-box-text {
+  color: #932993;
+}
+
+.container-3 .lighten-1 {
+  background-color: #00b300;
+}
+
+.container-3 .lighten-1 .color-box-text {
+  color: #932993;
+}
+
+.container-3 .lighten-2 {
+  background-color: #00e600;
+}
+
+.container-3 .lighten-2 .color-box-text {
+  color: #932993;
+}
+
+.container-3 .lighten-3 {
+  background-color: #1aff1a;
+}
+
+.container-3 .lighten-3 .color-box-text {
+  color: #932993;
 }
 /*# sourceMappingURL=index.da98add7.css.map */

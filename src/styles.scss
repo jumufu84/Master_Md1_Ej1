@@ -1,49 +1,58 @@
 @use "base" as *;
 
-.container {
+@mixin paleta ($colorPaleta, $colorTexto) {
     display: grid;
     grid-template-columns: repeat(7, 100px);
     grid-template-rows: 100px;
     gap: 5px;
     margin: 5px;
+
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    .color-box-text{
+        color: $color-box-text;
+    }
+    
+    .base-color {
+        background-color: $colorPaleta;
+    }
+    
+    $i:3;
+    @while $i > 0 {
+        .darken-#{$i}{
+            background-color: darken($color: $colorPaleta, $amount: $i * 10%);    
+            .color-box-text {
+                color: $colorTexto;
+            }
+        }
+        $i : $i - 1;
+    }
+    
+    $i:1;
+    @while $i < 4 {
+        .lighten-#{$i}{
+            background-color: lighten($color: $colorPaleta, $amount: $i * 10%);    
+            .color-box-text {
+                color: $colorTexto;
+            }
+        }
+        $i : $i + 1;
+    }
 }
 
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
+.container-1 {
+    @include paleta($first-color, $first-color-text);
 }
 
-.color-box-text{
-    color: $color-box-text;
+.container-2 {
+    @include paleta($second-color, $second-color-text);
 }
 
-.base-color {
-    background-color: $base-color;
-}
-
-.darken-3 {
-    background-color: darken($color: $base-color, $amount: 30%);
-    color: blue;
-}
-
-.darken-2 {
-    background-color: darken($color: $base-color, $amount: 20%);
-}
-
-.darken-1 {
-    background-color: darken($color: $base-color, $amount: 10%);
-}
-
-.lighten-1 {
-    background-color: lighten($color: $base-color, $amount: 10%);
-}
-
-.lighten-2 {
-    background-color: lighten($color: $base-color, $amount: 20%);
-}
-
-.lighten-3 {
-    background-color: lighten($color: $base-color, $amount: 30%);
+.container-3 {
+    @include paleta($third-color, $third-color-text);
 }
