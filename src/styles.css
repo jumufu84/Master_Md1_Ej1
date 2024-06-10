@@ -1,31 +1,11 @@
+@import "temaA.css";
+/* @import "temaB.css"; */
+
+* {
+    box-sizing: border-box;
+}
+
 .container {
     display: flex;
     flex-direction: column;
-}
-
-.box {
-    height: 100px;
-    width: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px solid black;
-    border-radius: 3px;
-}
-
-.base {
-    background-color: red;
-}
-
-.important {
-    background-color: darkred;
-}
-
-.warning {
-    background-color: pink;
-}
-
-.text {
-    margin: 10px;
 }

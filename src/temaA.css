@@ -1,0 +1,39 @@
+.box {
+    height: 100px;
+    width: 150px;
+    padding: 20px 0px 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.shadow {
+    box-shadow: -12px 12px 15px rgba(0, 0, 0, 1);
+}
+
+.base {
+    background-color: red;
+}
+
+.important {
+    background-color: darkred;
+}
+
+.warning {
+    background-color: pink;
+}
+
+.text {
+    margin: 12px;
+}
+
+.text1 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

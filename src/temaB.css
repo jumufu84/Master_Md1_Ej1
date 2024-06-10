@@ -1,0 +1,31 @@
+.box {
+    height: 100px;
+    width: 150px;
+    padding: 20px 0px 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.shadow {
+    box-shadow: 12px 12px 15px rgba(0, 0, 0, 1);
+}
+
+.base {
+    background-color: blue;
+}
+
+.important {
+    background-color: darkblue;
+}
+
+.warning {
+    background-color: aqua;
+}
+
+.text {
+    margin: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
